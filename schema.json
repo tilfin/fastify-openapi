@@ -1,0 +1,24 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {
+        "User": {
+            "description": "ユーザー",
+            "properties": {
+                "age": {
+                    "description": "年齢",
+                    "type": "number"
+                },
+                "name": {
+                    "description": "名前",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "age",
+                "name"
+            ],
+            "type": "object"
+        }
+    }
+}
+
